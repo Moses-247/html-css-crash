@@ -26,15 +26,15 @@
     <div>
         <form action="">
             <label for="username">Enter Username:</label>
-            <input type="text" id="username">
+            <input type="text" id="username" placeholder="Username">
             <br> <br>
 
             <label for="email">Enter Email:</label>
-            <input type="email" name="" id="email">
+            <input type="email" name="" id="email" placeholder="Your email">
             <br> <br>
 
             <label for="pass">Enter Password:</label>
-            <input type="password" name="" id="pass">
+            <input type="password" name="" id="pass" placeholder="Choose password">
         </form>
     </div>    
 
@@ -46,7 +46,27 @@
             <input type="radio" name="gender" id="other">Other <br>
         </form>
     </div>
-    
 
+    <br> <br>
+    <div>
+        <label for="">Security Question:</label>
+        <select name="question" id="question">
+            <option value="q1">Fav color?</option>
+            <option value="q2">Fav Dog Name</option>
+            <option value="q3">Nickname when young</option>
+            <option value="q4">Mother's Name</option>
+        </select>
+
+        <br><br>
+        <label for="answer">Security question answer:</label>
+        <input type="text" id="answer" name="answer">
+    </div>
+    
+    <br> <br>
+    <label for="">Type bio</label> <br>
+    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter our bio..."></textarea>
+
+    <br> <br>
+    <input type="submit" value="Submit the form">
 </body>
 </html>
